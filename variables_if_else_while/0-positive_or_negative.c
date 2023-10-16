@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/* Main - is where main code located */
 
-/* betty style doc for function main goes there */
+/* I hate betty */
 int main(void)
 {
 	int n;
@@ -10,15 +10,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n>0)
 	  {
-	    printf("is positive\n");
+	    printf("is positive \n");
 	  }
-	if (n=0)
+	else if (n=0)
           {
-            printf("is zero\n");
+            printf("is zero \n");
           }
-	if (n<0)
+	else (n<0)
           {
-            printf("is negative\n");
+            printf("is negative \n");
           }
 	return (0);
 }
