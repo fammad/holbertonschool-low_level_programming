@@ -1,9 +1,15 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* Main - is where main code located */
-/* I hate betty */
+/**
+ * main - Entry point
+ *
+ * Desc:Something
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
+main
 {
 	int n;
 
