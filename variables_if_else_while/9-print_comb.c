@@ -13,7 +13,11 @@ int main(void)
 	for (count = 0; count <= 9; count++)
 	{
 		putchar(count + '0');
-		putchar(',') ;
+		if (count < 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
