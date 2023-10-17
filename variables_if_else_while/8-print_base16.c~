@@ -8,13 +8,17 @@
  */
 int main(void)
 {
-	char alphabet;
+	int count;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (count = 0; count <= 15; count++)
 	{
-		if (alphabet != 'q' || alphabet != 'e')
+	  if(count <=9)
 		{
-		putchar(alphabet);
+		  putchar(count);
+		}
+	  else
+		{
+		  putchar('a' + count - 10);
 		}
 	}
 	putchar('\n');

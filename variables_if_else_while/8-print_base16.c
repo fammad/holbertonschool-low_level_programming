@@ -8,11 +8,18 @@
  */
 int main(void)
 {
-	int alp;
+	int count;
 
-	for (alp = z; alp >= a; alp--)
+	for (count = 0; count <= 15; count++)
 	{
-		putchar(alp);
+	  if(count <=9)
+		{
+		  putchar(count + '0');
+		}
+	  else
+		{
+		  putchar('a' + count - 10);
+		}
 	}
 	putchar('\n');
 	return (0);
