@@ -1,13 +1,19 @@
 #include <stdio.h>
-
-int main (void)
+/**
+ * main - Entry point
+ *
+ * Desc:Something
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 	char alphabet;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for(alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-	putchar (alphabet);
+	putchar(alphabet);
 	}
-	putchar ('\n');
-	return 0;
+	putchar('\n');
+	return (0);
 }
