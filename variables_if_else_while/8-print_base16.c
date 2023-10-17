@@ -12,7 +12,7 @@ int main(void)
 
 	for (count = 0; count <= 15; count++)
 	{
-	if(count <=9)
+	if (count <= 9)
 		{
 		putchar(count + '0');
 		}
