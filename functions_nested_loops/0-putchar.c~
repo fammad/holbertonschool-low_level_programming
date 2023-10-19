@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Desc:Something
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	char name = '_putchar';
+
+	putchar(name);
+	putchar('\n');
+	return (0);
+}
