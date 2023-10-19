@@ -15,5 +15,14 @@ int main(void)
 
 void print_alphabet(void)
 {
-	printf("putchar\n");
+  char count;
+  
+  for (count = 'a'; count <= 'z'; count++)
+	{
+		putchar(count);
+		if (count == 'z')
+   		{
+		printf("\n");
+		}
+	}
 }
