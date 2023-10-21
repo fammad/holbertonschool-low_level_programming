@@ -1,13 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
- *
- * Desc:Something
- * 
- * print_alphabet - THis funcion explain description of that function
- *
- * Return: Always 0 (Success)
+ * print_alphabet - print characters of alphabet in lowercase
  */
 void print_alphabet(void)
 {
