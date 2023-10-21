@@ -1,33 +1,30 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- *times_table - counts a day
- *
+ *times_table - prints the tables
  *
  *
  */
+
 void times_table(void)
 {
-    int cycle1;
-    int cycle2;
-    int value;
+  int a, b, mul;
 
-    for (cycle1 = 0; cycle1 <= 9; cycle1++)
-    {
-        for (cycle2 = 0; cycle2 <= 9; cycle2++)
-        {
-            value = cycle1 * cycle2;
-
-            if (cycle2 == 0)
-            {
-                printf("%2d", value);
-            }
-            else
-            {
-                printf(", %2d", value);
-            }
-        }
-        printf("\n");
-    }
+	for (a = 0 ; a < 10 ; a++)
+	{
+		for (b = 0; b < 10; b++)
+		{
+			mul = a * b;
+			if (b == 0)
+				printf("%d, ", mul);
+			else
+			{
+				printf("%2d", mul);
+				if (b != 9)
+					printf(", ");
+			}
+		}
+		printf("\n");
+	}
 }
