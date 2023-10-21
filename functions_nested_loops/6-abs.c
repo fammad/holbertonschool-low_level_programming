@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *_abs - making absolute number 
- *@var: + - or 0 is positive or negative nuber
- *Description : A prgram that makes absolute value
+ *_abs - making absolute number
+ *@var: variable
+ *Description : A program fot task 6
  *Return: val
 */
 int _abs(int val)
