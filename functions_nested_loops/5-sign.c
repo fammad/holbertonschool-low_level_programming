@@ -4,8 +4,7 @@
  *print_sign - a function checking the value is poitive or negative
  *@n : is variable
  *Description : A prgram that copare values
- *Return : 0, 1, or -1 with symbols
- *
+ *Return: 0, 1, or -1
 */
 int print_sign(int n)
 {
