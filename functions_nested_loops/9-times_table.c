@@ -21,15 +21,15 @@ void times_table(void)
 
 			if (value >= 10)
 			  {
-				printf("%2d", value);
+				printf("%d, ", value);
 			  }
-			else
+			else if (cycle2 == 9)
 			{
-				printf(" %d", value);
+				printf("%d", value);
 			}
-			if (cycle2 < 9)
+			else
 			  {
-				printf(", ");
+				printf("%d,  ");
 			  }
 		}
 		_putchar('\n');
