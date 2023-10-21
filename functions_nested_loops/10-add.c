@@ -8,9 +8,9 @@
  *sum - is the result
  */
 
-int add(int, int)
+int add(int a, int b)
 {
-	int a, b, sum;
+	int sum;
 
 	sum = a + b;
 
