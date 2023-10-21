@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *_abs - making absolute number
- *@var: variable
- *Description : A program fot task 6
- *Return: val
+*_abs - Check if string is lowercase
+*@var: variable
+*Description: Program of task 6
+*Return: 0
 */
 int _abs(int val)
 {
