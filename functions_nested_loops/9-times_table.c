@@ -31,7 +31,7 @@ void times_table(void)
 			  {
 				printf("%d,  ", value);
 			  }
-			else if (value < 10 && cycle2 == 9)
+			else if
               {
                 printf("%d\n", value);
               }
