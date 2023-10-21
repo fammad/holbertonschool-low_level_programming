@@ -2,16 +2,18 @@
 #include <stdio.h>
 
 /**
- *add - adds the tables
- *@a: variable
- *@b: variable
- *Return: sum of variables
+ *print_to_98 - adds the tables
+ *@n: variable
+ *
+ *
  */
 
 void print_to_98(int n)
 {
-  for (n; n <= 98; n++)
+	while (n <= 98)
 	{
-	  printf("%d, ", n);
+		printf("%d, ", n);
+		n++;
 	}
-	}
+	putchar('\n');
+}
