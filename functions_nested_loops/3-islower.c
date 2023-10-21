@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *_islower -checks for lowercases
- *@c value is interger that we checking
- *Return vaule is the result that if the value is lowercase or not
+*_islower - Check if string is lowercase or uppecrcase
+*@c: variable
+*Description: Islower tast
+*Return: 0 or 1
 */
 int _islower(int c)
 {
