@@ -25,7 +25,7 @@ void times_table(void)
 			  }
 			else if (cycle2 == 9)
 			{
-				printf("%d/n", value);
+				printf("%d\n", value);
 			}
 			else
 			  {
