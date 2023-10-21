@@ -19,18 +19,22 @@ void times_table(void)
 		{
 			value = cycle1 * cycle2;
 
-			if (value >= 10)
+			if (value >= 10 && cycle2 != 9)
 			  {
 				printf("%d, ", value);
 			  }
-			else if (cycle2 == 9)
+			else if ((value >= 10 && cycle2 == 9))
 			{
 				printf("%d\n", value);
 			}
-			else
+			else if (value < 10 && cycle2 != 9)
 			  {
 				printf("%d,  ", value);
 			  }
+			else if (value < 10 && cycle2 == 9)
+              {
+                printf("%d\n", value);
+              }
 		}
 	}
 }
