@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  *_abs - making absolute number 
- *@var: is positive or negative nuber 
+ *@var: + - or 0 is positive or negative nuber
  *Description : A prgram that makes absolute value
  *Return: val
 */
