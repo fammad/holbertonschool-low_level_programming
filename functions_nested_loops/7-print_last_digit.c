@@ -10,6 +10,6 @@
 int print_last_digit(int v)
 {
 	v = v%10;
-	printf("%d", v);
-	return (v);
+	_putchar((v%10) + '0');
+	return (v%10);
 }
