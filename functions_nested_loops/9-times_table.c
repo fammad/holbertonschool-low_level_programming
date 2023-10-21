@@ -31,7 +31,7 @@ void times_table(void)
 			  {
 				printf("%d,  ", value);
 			  }
-			else if
+			else
               {
                 printf("%d\n", value);
               }
