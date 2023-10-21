@@ -2,19 +2,19 @@
 #include "main.h"
 /**
 *_abs - Check if string is lowercase
-*@var: variable
+*@v: the integer to be converted
 *Description: Program of task 6
-*Return: 0
+*Return: absolute value of the input
 */
-int _abs(int val)
+int _abs(int v)
 {
-	if (val < 0)
+	if (v < 0)
 	{
-		val = val * (-1);
-		return (val);
+		v = v * (-1);
+		return (v);
 	}
 	else
 	{
-		return (val);
+		return (v);
 	}
 }
