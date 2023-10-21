@@ -5,7 +5,6 @@
  *add - adds the tables
  *@a: variable
  *@b: variable
- *@sum: variable
  *Return: sum of variables
  */
 
