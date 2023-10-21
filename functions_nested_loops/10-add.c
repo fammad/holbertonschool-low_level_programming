@@ -3,9 +3,9 @@
 
 /**
  *add - adds the tables
- *@a - is one number
- *@b - is another muber
- *@sum - is the result
+ *@a: variable
+ *@b: variable
+ *@sum: variable
  */
 
 int add(int a, int b)
