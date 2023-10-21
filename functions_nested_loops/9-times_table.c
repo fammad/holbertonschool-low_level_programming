@@ -29,7 +29,7 @@ void times_table(void)
 			}
 			else
 			  {
-				printf("%d,  ");
+				printf("%d,  ", value);
 			  }
 		}
 		_putchar('\n');
