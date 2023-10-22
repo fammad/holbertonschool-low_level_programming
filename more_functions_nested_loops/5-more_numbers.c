@@ -25,7 +25,7 @@ void more_numbers(void)
 				_putchar(n + '0');
 			}
 		}
-		printf('\n');
+		printf("\n");
 	}
-	printf('\n');
+	printf("\n");
 }
