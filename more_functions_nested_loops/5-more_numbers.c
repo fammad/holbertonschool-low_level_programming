@@ -22,7 +22,7 @@ void more_numbers(void)
 			}
 		else
 			{
-			_putchar(n);
+			_putchar(n + '0');
 			}
 		}
 		printf("\n");
