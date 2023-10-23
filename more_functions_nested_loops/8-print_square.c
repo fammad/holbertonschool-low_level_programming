@@ -9,7 +9,8 @@
  */
 void print_square(int size)
 {
-	int cycle;
+	int cycle1;
+	int cycle2;
 
 	if (size <= 0)
 	{
@@ -17,9 +18,9 @@ void print_square(int size)
 	}
 	else
 	{
-	  for (cycle = 0; cycle < size; cycle++)
+	  for (cycle1 = 0; cycle1 < size; cycle1++)
 		{
-			for (cycle = 0; cycle < size; cycle++)
+			for (cycle2 = 0; cycle2 < size; cycle2++)
 			{
 				_putchar('#');
 			}
