@@ -12,7 +12,7 @@ int main (void)
 	
 	for (cycle = 1; cycle <= 100; cycle++)
 	{
-		if (cycle % 15 == 0)
+		if (cycle % 15 == 0 && cycle != 100)
 		{
 			printf("FizzBuzz ");
 		}
@@ -26,7 +26,7 @@ int main (void)
         }
         else if (cycle == 100)
         {
-            printf("Buzz");
+            printf("FizzBuzz");
         }
 		else
         {
