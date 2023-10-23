@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  *main - function for FuzzBuzz
+ *Description: This is the main function where the program execution starts.
  *return: 0 Success
  */
 int main(void)
