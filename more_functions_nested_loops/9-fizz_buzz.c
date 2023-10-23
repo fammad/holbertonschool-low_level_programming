@@ -1,15 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
- *
- *
- *
+ *main - function for FuzzBuzz
+ *Return - 0
  */
-int main (void)
+int main(void)
 {
 	int cycle;
-	
+
 	for (cycle = 1; cycle <= 100; cycle++)
 	{
 		if (cycle % 15 == 0)
@@ -21,17 +19,17 @@ int main (void)
 			printf("Fizz ");
 		}
 		else if	(cycle % 5 == 0 && cycle % 3 != 0 && cycle != 100)
-        {
-            printf("Buzz ");
-        }
-        else if (cycle == 100)
-        {
-            printf("Buzz");
-        }
+		{
+			printf("Buzz ");
+		}
+		else if (cycle == 100)
+		{
+			printf("Buzz");
+		}
 		else
-        {
-            printf("%d ", cycle);
-        }
+		{
+			printf("%d ", cycle);
+		}
 	}
 	printf("\n");
 	return (0);
