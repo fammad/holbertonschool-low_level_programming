@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  *main - function for FuzzBuzz
- *Return - 0
+ *return: 0 Success
  */
 int main(void)
 {
