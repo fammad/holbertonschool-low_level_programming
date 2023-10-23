@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  *main - function for FuzzBuzz
- *description: This is the main function where the program execution starts.
- *return: 0 Success
+ *Description: This is the main function where the program execution starts.
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
