@@ -19,13 +19,13 @@ void print_triangle(int size)
 	}
 	else
 	{
-		for (row == 1; row <= size; row++)
+		for (row = 1; row <= size; row++)
 		{
-			for (space == 1; space <= size - row; space++)
+			for (space = 1; space <= size - row; space++)
 			{
 				_putchar(' ');
 			}
-			for (hash == 1; hash <= row; hash++)
+			for (hash = 1; hash <= row; hash++)
 			{
 				_putchar('#');
 			}
