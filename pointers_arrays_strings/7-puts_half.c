@@ -21,7 +21,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		for (cy = (len - 1) / 2; cy < len; cy++)
+		for (cy = (len - 1) / 2 + 1; cy < len; cy++)
 		{
 			printf("%c", str[cy]);
 		}
