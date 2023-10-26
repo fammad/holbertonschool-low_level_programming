@@ -13,7 +13,6 @@ void print_rev(char *s)
 	lenght = strlen(s);
 	for (cycle = 0; cycle < lenght; cycle++)
 	{
-		cor = lenght - cycle);
-		puts(*(s - cor); 
+		puts(*(s - (lenght - cycle))); 
 	}
 }
