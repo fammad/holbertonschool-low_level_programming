@@ -7,5 +7,5 @@
 */
 void _puts(char *str)
 {
-	puts(message);
+	puts(str);
 }
