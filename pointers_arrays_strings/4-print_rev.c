@@ -8,12 +8,12 @@
 */
 void print_rev(char *s)
 {
-  	int lenght, cycle;
+	int lenght, cycle;
 
 	lenght = strlen(s);
 	for (cycle = lenght - 1; cycle >= 0; cycle--)
 	{
-	  putchar(s[cycle]);
+		putchar(s[cycle]);
 	}
 		putchar('\n');
 }
