@@ -10,12 +10,12 @@ void puts2(char *str)
 {
 	int cy;
 	int len = strlen(str);
-  
+
 	for (cy = 0; cy < len; cy++)
 	{
 		if (cy % 2 == 0)
 		{
-		  printf("%c",str[cy]);
+			printf("%c", str[cy]);
 		}
 	}
 	putchar('\n');
