@@ -11,15 +11,19 @@ void puts_half(char *str)
 	int cy;
 	int len = strlen(str);
 
-	for (cy = len / 2; cy < len; cy++)
+	if (len % 2 == 0)
 	{
-		if (cy % 2 == 0)
+		for (cy = len / 2; cy < len; cy++)
 		{
 			printf("%c", str[cy]);
 		}
-		else
+
+	}
+	else
+	{
+		for (cy = (len - 1) / 2; cy < len; cy++)
 		{
-		  printf("%c", str[cy-1]);
+			printf("%c", str[cy]);
 		}
 	}
 	putchar('\n');
