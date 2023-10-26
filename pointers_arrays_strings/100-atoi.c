@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 #include <string.h>
+#include <stdlib.h>
 /**
  *_strcpy - is a fucntion that doimg something
  *@s: Variable
