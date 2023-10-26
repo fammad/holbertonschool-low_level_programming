@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 /**
  *_strcpy - is a fucntion that doimg something
  *@dest: Variable
