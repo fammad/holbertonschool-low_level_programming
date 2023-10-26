@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 /**
 *_strlen - does what it say
 *@s: Variable
@@ -9,6 +10,6 @@ int _strlen(char *s)
 {
   int lenght;
 
-  lenght = sizeof(s);
+  lenght = strlen(s);
   return (lenght);
 }
