@@ -11,8 +11,9 @@ void print_rev(char *s)
   	int lenght, cycle;
 
 	lenght = strlen(s);
-	for (cycle = 0; cycle < lenght; cycle++)
+	for (cycle = lenght - 1; cycle >= 0; cycle--)
 	{
-		puts(s - (lenght - cycle)); 
+		putchar(s[cycle];
 	}
+		putchar('\n');
 }
