@@ -18,4 +18,5 @@ void puts2(char *str)
 		  printf("%c",str[cy]);
 		}
 	}
+	putchar('\n');
 }
