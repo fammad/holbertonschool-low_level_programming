@@ -25,13 +25,13 @@ int _atoi(char *s)
 
 			if (result > (2147483647 - digit) / 10)
 			{
-                if (sign == 1)
+				if (sign == 1)
 				{
-					return 2147483647;
+					return (2147483647);
 				}
 				else
 				{
-					return -2147483648;
+					return (-2147483648);
 				}
 			}
 			result = result * 10 + digit;
@@ -43,5 +43,5 @@ int _atoi(char *s)
 		s++;
 	}
 
-	return result * sign;
+	return (result * sign);
 }
