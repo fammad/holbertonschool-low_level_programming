@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*strin_toupper - Making everything uppercase
+*string_toupper - Making everything uppercase
 *@a: Variable
 *A program that src string and dest string doing something.
 *Return: Void
