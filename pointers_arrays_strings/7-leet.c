@@ -8,21 +8,24 @@
  */
 char *leet(char *str)
 {
-	char replacement[] = "aAeEoOtTlL";
-	char encoded[] = "44337711";
+	int i;
+	int n;
 
-	int i, j;
+	char a[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L', '\0'};
+	char b[] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1', '\0'};
 
-	for (i = 0; str[i] != '\0'; i++)
+	while (str[n] != '\0')
 	{
-		for (j = 0; replacement[j] != '\0'; j++)
+		i = 0;
+		while (a[i] != '\0')
 		{
-			if (str[i] == replacement[j])
+			if (str[n] == a[i])
 			{
-				str[i] = encoded[j];
-				break;
+				str[n] = b[i];
 			}
+			i++;
 		}
+		n++;
 	}
-	return str;
+	return (str);
 }
