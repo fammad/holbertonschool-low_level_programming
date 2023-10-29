@@ -8,8 +8,8 @@
  */
 char *leet(char *str)
 {
-	char *replacement = "aAeEoOtTlL";
-	char *encoded = "44337711";
+	char replacement[] = "aAeEoOtTlL";
+	char encoded[] = "44337711";
 
 	int i, j;
 
