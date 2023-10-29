@@ -14,7 +14,7 @@ char *cap_string(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (isspace(str[i]) || ispunct(str[i]) || str[i] == '\n' || i ==0)
+		if (isspace(str[i]) || ispunct(str[i]) || str[i] == '\n' || i == 0)
 		{
 			capitalize = 1;
 		}
