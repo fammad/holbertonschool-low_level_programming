@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*reverse_array - Comparing one to the another
+*strin_toupper - Making everything uppercase
 *@a: Variable
 *A program that src string and dest string doing something.
 *Return: Void
