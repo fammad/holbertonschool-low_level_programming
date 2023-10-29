@@ -10,12 +10,12 @@ char *string_toupper(char *a)
 {
 	int start;
 
-	for(start = 0; a[start] != '\0'; start++)
+	for (start = 0; a[start] != '\0'; start++)
 	{
 		if (a[start] >= 'a' && a[start] <= 'z')
 		{
 			a[start] = a[start] - ('a' - 'A');
-		}			
+		}
 	}
 	return (a);
 }
