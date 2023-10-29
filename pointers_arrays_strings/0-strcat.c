@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *Description: A program that concentarate two string
  *_strcat: is concatenates two strings
+ *Description: A function doing something 
  *@dest: Variable
  *@src: Variable
  *Return: Char
