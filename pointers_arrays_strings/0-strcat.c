@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
+ *Description: A program that concentarate two string
  *_strcat: is concatenates two strings
  *@dest: Variable
  *@src: Variable
@@ -18,7 +19,7 @@ char *_strcat(char *dest, char *src)
 	{
 		*dest = *src;
 		dest++;
-		src++;  
+		src++;
 	}
 	*dest = '\0';
 	return (result);
