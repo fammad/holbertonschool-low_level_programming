@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*_strcat: is concatenates two strings
+*_strcat - Concatenate two strings
 *@dest: Variable
 *@src: Variable
 *A program that src string and dest string doing something.
