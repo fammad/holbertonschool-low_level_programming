@@ -9,27 +9,28 @@
 */
 char *cap_string(char *str)
 {
-	int capitalize = 1;
-	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
+	int i = 0, j;
+	char trigger[] = " \t\n,;.!?\"(){}";
+
+	if (str[0] >= 'a' && str[0] <= 'z')
 	{
-		if (isspace(str[i]) || ispunct(str[i]) || str[i] == '\n' || i == 0)
+		str[0] -= 32;
+	}
+	while (str[i] != '\0')
+	{
+		if (str[i + 1] >= 'a' && str[i] <= 'z')
 		{
-			capitalize = 1;
-		}
-		else if (isalpha(str[i]))
-		{
-			if (capitalize)
+			for (j = 0; trigger[j] != '\0'; j++)
 			{
-				str[i] = toupper(str[i]);
-				capitalize = 0;
-			}
-			else
-			{
-				str[i] = tolower(str[i]);
+				if (trigger[j] == str[i])
+				{
+					str[i + 1] -= 32;
+					break;
+				}
 			}
 		}
+		i++;
 	}
 	return (str);
 }
