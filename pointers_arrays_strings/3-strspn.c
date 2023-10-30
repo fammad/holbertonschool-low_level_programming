@@ -9,7 +9,7 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int count = 0;
-	int mathc;
+	int match;
 	int c1, c2;
 
 	while (*s != '\0')
