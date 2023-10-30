@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *_memset is a fucntion that fills the space
- *@s Variable
- *@b Variable
- *@n Variable
+ *_memset - a function that fills the space with constant
+ *@s: Variable
+ *@b: Variable
+ *@n: Variable
  *Return: A char
  */
 char *_memset(char *s, char b, unsigned int n)
