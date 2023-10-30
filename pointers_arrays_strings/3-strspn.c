@@ -8,8 +8,6 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int count = 0;
-	int match;
 	int c1, c2;
 
 	if (*s == '\0' || *accept == '\0')
