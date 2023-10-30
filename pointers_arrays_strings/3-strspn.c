@@ -10,7 +10,7 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int count = 0;
 	int match;
-	int c1, c2;
+	int c1;
 
 	while (*s != '\0')
 	{
