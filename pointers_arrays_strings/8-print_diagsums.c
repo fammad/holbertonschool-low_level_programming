@@ -7,12 +7,14 @@
 *A program that src string and dest string doing something.
 *Return: Void
 */
-void print_diagsums(int *a, int size) {
+void print_diagsums(int *a, int size)
+{
 	int primary_sum = 0;
 	int secondary_sum = 0;
 	int i;
 
 	for (i = 0; i < size; i++)
+	{
 		primary_sum += a[i * size + i];
 		secondary_sum += a[i * size + (size - 1 - i)];
     }
