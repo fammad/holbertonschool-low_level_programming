@@ -8,9 +8,10 @@
 *A program that src string and dest string doing something.
 *Return: Char
 */
-char *find_substring(char *text, char *substring) {
-	size_t text_len = strlen(text);
-	size_t sub_len = strlen(substring);
+char *_strstr(char *haystack, char *needle)
+{
+	size_t text_len = strlen(haystack);
+	size_t sub_len = strlen(needle);
 	size_t i;
 	
 	if (sub_len == 0)
