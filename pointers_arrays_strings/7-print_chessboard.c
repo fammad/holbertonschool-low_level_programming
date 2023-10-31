@@ -17,6 +17,6 @@ void print_chessboard(char (*a)[8])
 		{
 			printf("%c", a[cy1][cy2]);
 		}
-	}
 	printf("\n");
+	}
 }
