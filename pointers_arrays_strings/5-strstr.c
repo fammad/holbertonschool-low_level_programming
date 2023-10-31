@@ -16,7 +16,7 @@ char *_strstr(char *haystack, char *needle)
 	
 	if (sub_len == 0)
 	{
-		return (text);
+		return (haystack);
     }
     if (text_len < sub_len)
 	{
@@ -24,9 +24,9 @@ char *_strstr(char *haystack, char *needle)
 	}
 	for (i = 0; i <= text_len - sub_len; i++)
 	{
-		if (strncmp(text + i, substring, sub_len) == 0)
+		if (strncmp(haystack + i, substring, sub_len) == 0)
 		{
-			return (text + i);
+			return (haystack + i);
 		}
 	}
 	return (NULL);
