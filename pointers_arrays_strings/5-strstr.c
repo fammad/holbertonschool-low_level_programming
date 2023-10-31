@@ -24,7 +24,7 @@ char *_strstr(char *haystack, char *needle)
 	}
 	for (i = 0; i <= text_len - sub_len; i++)
 	{
-		if (strncmp(haystack + i, substring, sub_len) == 0)
+		if (strncmp(haystack + i,needle, sub_len) == 0)
 		{
 			return (haystack + i);
 		}
