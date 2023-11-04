@@ -9,6 +9,12 @@
  *Return: Squareroot of n
  *
 */
+/**
+*_sqrt_recursion - Return square root of n
+*@n: Integer
+*
+*Return: Always 0
+*/
 int _sqrt_recursion(int n)
 {
 	return (_guess_squareroot(n, 1));
