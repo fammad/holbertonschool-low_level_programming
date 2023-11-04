@@ -2,8 +2,7 @@
 #include "main.h"
 #include <string.h>
 /**
- *_sqrt_recursion - function that returns the square root of n
-*_guess_squareroot - function that trying to guess root of n
+*_guess_squareroot - Return square root of n with guess parameter
  *@n: Variable
  *@guess: Variable
  *Return: Squareroot of n
