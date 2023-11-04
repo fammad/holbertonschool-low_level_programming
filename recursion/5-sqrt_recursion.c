@@ -3,8 +3,9 @@
 #include <string.h>
 /**
 *_guess_squareroot - Return square root of n with guess parameter
- *@n: Variable
- *@guess: Variable
+*_sqrt_recursion - Function that douing something
+*@n: Integer
+ *@guess: Integer
  *Return: Squareroot of n
  *
 */
