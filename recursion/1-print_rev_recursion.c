@@ -9,13 +9,7 @@
 */
 void _print_rev_recursion(char *s)
 {
-	int i;
-	int len = strlen(s);
-
-	for (i = 0; i < len; i++, len--)
-	{
-		char temp = s[i];
-		s[i] = s[len-i];
-		s[len] = temp;
-	}
+  if (*s == '\n')
+	return;
+  _print_rev_recursion(s + 1);
 }
