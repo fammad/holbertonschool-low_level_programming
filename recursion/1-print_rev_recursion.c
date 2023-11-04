@@ -9,5 +9,13 @@
 */
 void _print_rev_recursion(char *s)
 {
-	printf("%s", strrev(s));
+	int i;
+	int len = stren(s);
+
+	for (i = 0; i < len; i++, len--)
+	{
+		char temp = s[i];
+		s[i] = s[len-i];
+		s[len] = temp;
+	}
 }
