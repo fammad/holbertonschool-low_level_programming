@@ -23,5 +23,5 @@ int is_prime_helper(int n, int division)
 		return (1);
 	if(n % division == 0)
 		return (0);
-	return (is_prime_helper(n, division + 1);
+	return (is_prime_helper(n, division + 1));
 }
