@@ -2,24 +2,23 @@
 #include "main.h"
 #include <string.h>
 /**
-*_guess_squareroot - Return square root of n with guess parameter
 *_sqrt_recursion - Function that douing something
 *@n: Integer
- *@guess: Integer
- *Return: Squareroot of n
- *
-*/
-/**
-*_sqrt_recursion - Return square root of n
-*@n: Integer
-*
-*Return: Always 0
+*Return: Squareroot of n
 */
 int _sqrt_recursion(int n)
 {
 	return (_guess_squareroot(n, 1));
 }
 
+
+/**
+*_guess_squareroot - Return square root of n with guess parameter
+*@n: Integer
+*@guess: Integer
+*
+*Return: Squareroot of n with guess
+*/
 int _guess_squareroot(int n, int guess)
 {
 	if (guess * guess == n)
