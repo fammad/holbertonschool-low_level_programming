@@ -24,9 +24,9 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	for(i = 0; i < len1 + len2; i++)
 	{
-		if (i < len1)
+		if (s1 != NULL && i < len1)
 			ret[i] = s1[i];
-		else
+		else if (s2 != NULL)
 			ret[i] = s2[i - len1];
 	}
 	ret[len1 + len2] = '\0';
