@@ -3,10 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- *
- *
- *
- *
+ *str_concat - function that doing something (concat)
+ *@s1: Variable
+ *@s2: Variable
+ *Return: Char
  */
 char *str_concat(char *s1, char *s2)
 {
