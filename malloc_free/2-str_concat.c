@@ -19,7 +19,7 @@ char *str_concat(char *s1, char *s2)
 	if (ret == NULL)
 		return (NULL);
 	if (s1 == NULL || s2 == NULL)
-		return(void);
+		return("");
 	for (i = 0; s1 != NULL && i < len1; i++)
 	{
 		ret[i] = s1[i];
