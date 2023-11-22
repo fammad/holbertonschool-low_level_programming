@@ -1,7 +1,7 @@
 #ifndef DOG_HEADER
 #define DOG_HEADER
 /**
- *dog - structure
+ *struct dog - structure for a new type
  *@name: Char
  *@age: Float
  *@owner: Char
