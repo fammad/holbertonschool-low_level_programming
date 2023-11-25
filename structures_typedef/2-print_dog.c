@@ -2,10 +2,8 @@
 #include "dog.h"
 
 /**
- *
- *
- *
- *
+ *print_dog - fuction that prints struct dog
+ *@d: Variable
  */
 void print_dog(struct dog *d)
 {
