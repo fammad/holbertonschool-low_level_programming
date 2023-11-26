@@ -31,5 +31,7 @@ void print_lowercase(char *name) {
  * @f: Function pointer to the printing function.
  */
 void print_name(char *name, void (*f)(char *)) {
-    f(name);
+  if (f == NULL)
+	return;
+  f(name);
 }
