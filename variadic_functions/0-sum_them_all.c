@@ -1,7 +1,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * sum_them_all - Function that Sum them all 
+* sum_them_all - Function that Sum them all
  * @n: Variable
  * @...: The others
  *
