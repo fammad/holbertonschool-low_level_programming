@@ -8,11 +8,11 @@
  *@name: char pointer
  *@age: float
  *@owner: char pointer
- *
+ *Return: dog_t ret
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-  dog_t *ret;
+	dog_t *ret;
 
 	ret = malloc(sizeof(dog_t));
 	if (ret == NULL)
@@ -29,5 +29,5 @@ dog_t *new_dog(char *name, float age, char *owner)
 	strcpy(ret->name, name);
 	strcpy(ret->owner, owner);
 	ret->age = age;
-	return(ret);
+	return (ret);
 }
