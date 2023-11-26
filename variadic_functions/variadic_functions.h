@@ -16,4 +16,8 @@ void print_numbers(const char *seperator, const unsigned int n, ...);
 void print_strings(const char *seperator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 int _putchar(int);
+void _print_char(va_list *args);
+void _print_integer(va_list *args);
+void _print_float(va_list *args);
+void _print_string(va_list *args);
 #endif
