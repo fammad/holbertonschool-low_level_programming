@@ -1,12 +1,6 @@
 #include <stdio.h>
 #include "function_pointers.h"
 /**
- * print_name - Calls the specified printing function with the provided name.
- * @name: Variable.
- * @f: Function pointer to the printing function.
- */
-void print_name(char *name, void (*f)(char *));
-**
  * print_uppercase - Prints the name in uppercase.
  * @name: The name to be printed in uppercase.
  */
