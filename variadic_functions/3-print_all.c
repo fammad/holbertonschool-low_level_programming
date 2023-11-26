@@ -2,7 +2,7 @@
 #include "variadic_functions.h"
 /**
  * print_all - Prints all
- * @format: Variable 
+* @format: Variable
  * @...: Variables to print
  * Return: Void
  */
