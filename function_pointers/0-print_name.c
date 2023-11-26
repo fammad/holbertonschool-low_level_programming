@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "function_pointers.h"
+#include <ctype.h>
 /**
  * print_uppercase - Prints the name in uppercase.
  * @name: The name to be printed in uppercase.
