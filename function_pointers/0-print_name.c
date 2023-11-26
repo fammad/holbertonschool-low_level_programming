@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include "function_pointers.h"
 /**
  * print_name - Calls the specified printing function with the provided name.
  * @name: Variable.
