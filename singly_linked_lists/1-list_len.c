@@ -1,3 +1,4 @@
+#include "lists.h"
 /**
  *count_number - Function that counts number of nodes in h
  *@h: Working list
