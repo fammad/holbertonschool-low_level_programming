@@ -1,8 +1,9 @@
 #include "lists.h"
 /**
- *list_len - Function that counts number of nodes in h
- *@h: Working list
- *Return: Number of nodes
+ *add_node - Function that adds a new node
+ *@head: Working list
+ *@str: Added string
+ *Return: new Node
  */
 list_t *add_node(list_t **head, const char *str)
 {
