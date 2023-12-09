@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  *print_list - function that prints all elements of list_t
- *@h: list_t valiable 
+ *@h: list_t valiable
  *Return: Lenght of the list_t
  */
 size_t print_list(const list_t *h)
