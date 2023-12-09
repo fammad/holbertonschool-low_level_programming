@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- *add_node - Function that adds a new node
+ *add_node_end - Function that adds a new node to the end
  *@head: Working list
  *@str: Added string
  *Return: new Node
