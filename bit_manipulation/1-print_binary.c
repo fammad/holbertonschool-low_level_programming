@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 /**
  *print_binary - Function that prints binary to unsigned integer
  *@n: Unsigned long int
