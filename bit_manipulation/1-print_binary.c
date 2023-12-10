@@ -12,7 +12,8 @@ void print_binary(unsigned long int n)
 		printf("0");
 		return;
 	}
-	char binary_str[CHAR_BIT * sizeof(unsigned long int) + 1];
+	int size = CHAR_BIT * sizeof(unsigned long int) + 1
+	char binary_str[size];
 	char *ptr = buffer + sizeof(buffer) - 1;
 
 	*ptr-- = '\0';
