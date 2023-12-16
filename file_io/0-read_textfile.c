@@ -4,7 +4,7 @@
  *@filename: Pointer to the string with null terminated
  *@letters: NUmber of letters to be printed
  *Return: Lenght of the actual number of letters it could read and print
- * /
+ */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	if (!filename)
