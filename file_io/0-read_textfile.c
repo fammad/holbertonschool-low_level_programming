@@ -1,3 +1,6 @@
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdlib.h>
 #include "main.h"
 /**
  *read_texfile - a function that reads a file and prints several letters
@@ -7,28 +10,35 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	if (!filename)
-		return (0);
-	int *fn = open(filename, O_RDONLY);
-	
-	if (fn == -1)
-		return (0);
-	ssize_t total_read = 0;
-	char buffer[BUFSIZ];
-	ssize_t read_byte;
+	int file;
+	int length, wrotechars;
+	char *buf;
 
-	while(read_byte = read(fd, buffer, MIN(BUFSIZ, letters - total_read)
+	if (filename == NULL || letters == 0)
+		return (0);
+	buf = malloc(sizeof(char) * (letters));
+	if (buf == NULL)
+		return (0);
+
+	file = open(filename, O_RDONLY);
+	if (file == -1)
 	{
-		total_read = total_read + read_byte;
-		letters = letters - read_byte;
-		if ( write(STDOUT_FILENO, buffer, read_bytes)
-		{
-			close(fn);
-			return(0);
-		}
-		if (total_read >= letters || read_bytes == 0)
-			brake;
+		free(buf);
+		return (0);
 	}
-	close (fd);
-	return (total_read);
+	length = read(file, buf, letters);
+	if (length == -1)
+	{
+		free(buf);
+		close(file);
+		return (0);
+	}
+
+	wrotechars = write(STDOUT_FILENO, buf, length);
+
+	free(buf);
+	close(file);
+	if (wrotechars != length)
+		return (0);
+	return (length);
 }
