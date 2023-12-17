@@ -7,11 +7,9 @@
 #include <stdio.h>
 #define buffersize 1024
 /**
- * copyfile
- *
- * @file_from:
- *
- * @file_to:
+ * copyfile - Function that doing something
+ * @file_from: Variable Const Char
+ * @file_to: Variiable Const Char
  */
 void copyfile(const char *file_from, const char *file_to)
 {
@@ -50,11 +48,10 @@ void copyfile(const char *file_from, const char *file_to)
 	}
 }
 /**
- * main
- *
- * @argc:
- *
- * Return:
+ * main - Main function
+ * @argv: Variable char
+ * @argc: Variable
+ * Return: Integer
  */
 int main(int argc, char **argv)
 {
