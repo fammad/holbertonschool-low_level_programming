@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- *read_texfile - a function that reads a file and prints several letters
+ *read_textfile - a function that reads a file and prints several letters
  *@filename: Pointer to the string with null terminated
  *@letters: NUmber of letters to be printed
  *Return: Lenght of the actual number of letters it could read and print
