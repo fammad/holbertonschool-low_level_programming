@@ -3,7 +3,7 @@
  * linear_search - linear search for a given array
  * @array: given
  * @size: array size
- * @value: value 
+ * @value: value
  * Return: index number or -1
  */
 int linear_search(int *array, size_t size, int value)
